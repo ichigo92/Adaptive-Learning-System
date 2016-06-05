@@ -117,13 +117,14 @@ namespace DataAccessLayer
             }
         }
 
-        public void NewUser()
+        public bool NewUser()
         {
             SqlConnection conn = new SqlConnection(@"Data Source=(local)\SQLEXPRESS;Initial Catalog=AdaptiveLearningSystemDB;Integrated Security=True");
             conn.Open();
             SqlCommand cmd = new SqlCommand("INSERT INTO Admin(admin_id,admin_password) VALUES('" + admin_id + "','" + admin_password + "')", conn);
             cmd.ExecuteNonQuery();
             conn.Close();
+            return true;
         }
 
         public void CheckUser()

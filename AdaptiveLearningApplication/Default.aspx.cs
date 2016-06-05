@@ -38,8 +38,11 @@ namespace AdaptiveLearningApplication
 
             if (role == "admin")
             {
-                al.NewUser();
-                Response.Redirect("AdminDashboard.aspx?msg=You are Logged in!!");
+                if (al.NewUser())
+                    Response.Redirect("AdminDashboard.aspx?msg=You are Logged in!!");
+                else
+                    Response.Redirect("Default.aspx?msg=Invalid username and password!");
+                    
             }
             else
             {

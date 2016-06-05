@@ -177,7 +177,7 @@
 
                                     <div class="col-lg-10">
                                         <!--<input type="text" class="form-control" id="inputUsername" placeholder="Username" />-->
-                                        <asp:TextBox CssClass="form-control" ID="txtUsername" runat="server" text="Username"></asp:TextBox>
+                                        <asp:TextBox CssClass="form-control" ID="txtUsername" runat="server" placeholder="Username"></asp:TextBox>
                                     </div>
                                 </div>
 
@@ -186,9 +186,9 @@
 
                                     <div class="col-lg-10">
                                         <!--<input type="password" class="form-control" id="inputEmail" placeholder="Password" />-->
-                                        <asp:TextBox CssClass="form-control" ID="txtPassword" runat="server" text="Password" TextMode="Password"></asp:TextBox>
+                                        <asp:TextBox CssClass="form-control" ID="txtPassword" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
                                         <!-- <button class="btn btn-success pull-right" type="submit">Send!</button>-->
-                                        <asp:Button CssClass="btn btn-success pull-right" ID="loginBtn" OnClick="LoginValidation" runat="server" Text="Send!" />
+                                        <asp:Button CssClass="btn btn-success pull-right" Style="margin-top:10px;"  ID="loginBtn" OnClick="LoginValidation" runat="server" Text="Send!" />
                                     </div>
                                 </div>
                                 <!--</form>-->
@@ -243,10 +243,10 @@
                             <div class="panel-body">
                                 First name:
                                 <%--<input type="text" name="FirstName" value="Mickey">--%>
-                                <asp:TextBox  ID="txtSignFirstName" runat="server" placeholder="Mickey"></asp:TextBox><br>
+                                <asp:TextBox ID="txtSignFirstName" runat="server" placeholder="Mickey"></asp:TextBox><br />
                                 Last name:
                                 <%--<input type="text" name="LastName" value="Mouse">--%>
-                                <asp:TextBox  ID="txtSignLastName" runat="server" placeholder="Mouse"></asp:TextBox><br>
+                                <asp:TextBox ID="txtSignLastName" runat="server" placeholder="Mouse"></asp:TextBox><br />
                             </div>
                         </div>
                     </div>
@@ -278,7 +278,7 @@
                             <div class="panel-body">
                                 Password:
                                 <%--<input type="password" pass="pass1" placeholder="*********">--%>
-                                <asp:TextBox TextMode="Password" ID="txtSignPassword" runat="server" placeholder="*********" ></asp:TextBox><br>
+                                <asp:TextBox TextMode="Password" ID="txtSignPassword" runat="server" placeholder="*********"></asp:TextBox><br>
                                 Verify Password:
                                 <%--<input type="password" name="pass2" placeholder="*********">--%>
                                 <asp:TextBox TextMode="Password" ID="txtSignConfirmPassword" runat="server" placeholder="*********"></asp:TextBox><br>
@@ -287,14 +287,14 @@
                     </div>
                 </div>
                 <div class="alert alert-info" data-scroll-reveal="enter from the bottom after 1.1s">
-                    <span style="font-size: 40px;">
+                    <span style="font-size: 16px;">
                         <strong>
                             <form action="">
-                 
+
                                 <input type="radio" id="r_admin" runat="server" name="r_role" value="admin">
                                 ADMIN<br>
                                 <hr />
-                                <input type="radio" id="r_student"  runat="server" name="r_role" value="student">
+                                <input type="radio" id="r_student" runat="server" name="r_role" value="student" />
                                 STUDENT<br>
                                 <hr />
                                 <input type="radio" id="r_faculty" runat="server" name="r_role" value="faculty">
@@ -303,12 +303,9 @@
                         </strong>
                         <hr />
                     </span>
-                    <asp:Button CssClass="btn btn-success pull-right" ID="signupBtn" runat="server" Text="SUBMIT" OnClick="InsertUser" />
+                    <asp:Button CssClass="btn btn-info btn-set" ID="signupBtn" runat="server" Text="SUBMIT" OnClick="InsertUser" />
                 </div>
             </div>
-
-
-
         </div>
     </div>
     <!-- COURSES SECTION END-->

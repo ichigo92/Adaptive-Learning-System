@@ -24,7 +24,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="Default.aspx">
                         <img class="logo-custom" src="Images/logo1.PNG" alt="logo" width="100" height="90" /></a>
                 </div>
                 
@@ -32,18 +32,17 @@
                         <ul class="nav navbar-nav navbar-right">
                             <asp:LoginView ID="LoginView1" Runat="server">
                             <AnonymousTemplate>
-                                <li><a href="#home">HOME</a></li>
+                                <li><a href="Default.aspx">HOME</a></li>
                                 <li><a href="#features-sec">FEATURES</a></li>
                                 <li><a href="#faculty-sec">SIGNIN</a></li>
                                 <li><a href="#course-sec">SIGNUP</a></li>
                                 <li><a href="#contact-sec">CONTACT</a></li>
                             </AnonymousTemplate>
                             <LoggedInTemplate>
-                                <li><a href="#home">HOME</a></li>
-                                <li><a href="#features-sec">FEATURES</a></li>
-                                <li><a href="#faculty-sec">SIGNIN</a></li>
-                                <li><a href="#course-sec">SIGNUP</a></li>
-                                <li><a href="#contact-sec">CONTACT</a></li>
+                                <li><a href="Default.aspx#home">HOME</a></li>
+                                <li><a href="Default.aspx#features-sec">FEATURES</a></li>
+                                <li><a href="AdminDashboard.aspx">ADMIN DASHBOARD</a></li>
+                                <li><a href="Default.aspx#contact-sec">CONTACT</a></li>
                                 <li><asp:LoginStatus ID="LoginStatus1" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/Default.aspx"/></li>
                             </LoggedInTemplate>
                             </asp:LoginView>
