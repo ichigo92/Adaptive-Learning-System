@@ -1,0 +1,5 @@
+C:\Users\Mystery 92\Documents\Visual Studio 2012\Projects\AdaptiveLearningSystem\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Mystery 92\Documents\Visual Studio 2012\Projects\AdaptiveLearningSystem\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Mystery 92\Documents\Visual Studio 2012\Projects\AdaptiveLearningSystem\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Mystery 92\Documents\Visual Studio 2012\Projects\AdaptiveLearningSystem\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Mystery 92\Documents\Visual Studio 2012\Projects\AdaptiveLearningSystem\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
