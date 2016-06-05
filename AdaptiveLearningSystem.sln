@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaptiveLearningApplication", "AdaptiveLearningApplication\AdaptiveLearningApplication.csproj", "{EAC7C9E3-A3A8-4762-85EC-E3CBB67C424B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7A90539F-336E-409D-B9BD-84367E403831} = {7A90539F-336E-409D-B9BD-84367E403831}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{7A90539F-336E-409D-B9BD-84367E403831}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAC7C9E3-A3A8-4762-85EC-E3CBB67C424B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC7C9E3-A3A8-4762-85EC-E3CBB67C424B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC7C9E3-A3A8-4762-85EC-E3CBB67C424B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC7C9E3-A3A8-4762-85EC-E3CBB67C424B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A90539F-336E-409D-B9BD-84367E403831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A90539F-336E-409D-B9BD-84367E403831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A90539F-336E-409D-B9BD-84367E403831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A90539F-336E-409D-B9BD-84367E403831}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
